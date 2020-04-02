@@ -1,0 +1,106 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+}
+
+/*body{
+
+	background-color: #7357F1;
+	
+	}*/
+
+.bgimage{
+
+background-image: url('images/sip1.jpg');
+background-size: 100% 100%;
+width: 100%;
+height: 100vh;
+
+}
+
+.menu{ 
+
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.3);
+
+}
+
+.leftmenu{
+	width: 20%;
+	line-height: 100px ;
+	float: left;
+/*	background-color: white;*/
+}
+
+.leftmenu h1:hover{
+	color: green;
+}
+
+.leftmenu h1{
+	padding-left: 70px; 
+	/*font-family: 'Lobster', cursive;*/
+	font-weight: bold;
+	font-family: 'Dancing Script', cursive;
+	color: Blue;
+
+}
+.rightmenu{
+	width: 80%;
+	height: 100px;
+	float: right;
+/*		background-color: white;
+*/
+}
+
+.rightmenu ul{
+	margin-left: 25px;
+}
+.rightmenu ul li{
+	font-family: 'Noto Serif', serif;
+	display: inline-block;
+	list-style: none;
+	color: white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+
+}
+
+.rightmenu ul li:hover{
+	color: yellow;
+}
+
+.sipbox {
+	font-family: 'Noto Serif', serif;
+	color:White;
+	font-size: 18px;
+	background-color: rgba(0,0,0,0.3);
+	width:300px;
+	height: 250px;
+
+	margin-top: 80px;
+	margin-left:50px;
+	padding: 70px 70px 50px 50px;
+
+}
+
+.tbox{
+line-height: 25px;
+background-color: white;
+font-size: 20px;
+
+}
+
+#sipcal{
+	font-family: 'Noto Serif', serif;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 20px;
+	line-height: 25px;
+	width: 250px;
+
+
+}
