@@ -66,11 +66,30 @@ height: 100vh;
 	line-height: 100px;
 	margin-left: 40px;
 
+
 }
 
-.rightmenu ul li:hover{
+
+
+a:link{
+	text-decoration: none;
+	color: white;
+}
+
+a:visited{
+	color: white
+
+}
+
+a:hover{
 	color: yellow;
 }
+
+
+a: active{
+	color: white
+}
+
 
 .sipbox {
 	font-family: 'Noto Serif', serif;
